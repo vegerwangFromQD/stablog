@@ -3,6 +3,9 @@ name: CI-Windows
 on:
   push:
     # Sequence of patterns matched against refs/tags
+    branches:
+     - master
+      
     tags:
       - '*' # Push events to matching any tags
 jobs:
