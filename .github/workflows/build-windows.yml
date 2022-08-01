@@ -4,7 +4,7 @@ on:
   push:
     # Sequence of patterns matched against refs/tags  
     tags:
-      - '*' # Push events to matching any tags
+      - '3.3.0' # Push events to matching any tags
 jobs:
   build:
     runs-on: windows-latest
